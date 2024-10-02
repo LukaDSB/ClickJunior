@@ -15,32 +15,7 @@
   height: 100px;
 }
 
-h1{
-  font-size: 4vw;
-}
 
-h3{
-  font-size: 3.5vw;
-}
-
-h4{
-  font-size: 2.5vw;
-}
-
-h5{
-  font-size: 2vw;
-  
-}
-
-p{
-  font-size: 1vw;
-}
-
-.h5container{
-  display: flex;
-  width: auto;
-  height: 10%;
-}
 
 hr{
   border:2px solid #fff;
@@ -218,10 +193,6 @@ p {
   #index-banner .section {
     top: 10%;
   }
-
-  #img-header{
-    display: none;
-  }
 }
 
 @media only screen and (max-width : 630px) {
@@ -305,13 +276,8 @@ a[href="#top"]:hover{
   height: 60px;
 }
 
-#mobile{
-  display: flex;
-  align-items: center;
-}
-
 #divmobile{
-  top: 50%;
+  margin-top: 35%;
 }
 
 #card1{
