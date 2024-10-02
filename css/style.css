@@ -15,7 +15,9 @@
   height: 100px;
 }
 
-
+h3{
+  font-size: 3rem;
+}
 
 .h5container{
   display: flex;
@@ -239,6 +241,10 @@ p {
     margin-top: 45px;
   }
 
+  .fonteh5{
+    font-size: 13.5vw;
+  }
+
 }
 
 .parallax-container img.img-header{
@@ -321,6 +327,12 @@ a[href="#top"]:hover{
   margin-bottom: 0px;
 }
 
+@media only screen and (max-width: 1260px){
+  #img-header{
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 510px){
   #divinstagram{
     margin-left: 0%;
@@ -336,6 +348,10 @@ a[href="#top"]:hover{
 
   #screenImg{
     display: none;
+  }
+
+  #fontealterar{
+    font-size: 2.5rem;
   }
 
 }
@@ -378,5 +394,15 @@ a[href="#top"]:hover{
 @media only screen and (max-width: 375px){
   .title{
     font-size: 2.28rem;
+  }
+
+  #fontealterar{
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 370px){
+  #fontealterar{
+    font-size: 2rem;
   }
 }
