@@ -1,6 +1,6 @@
 <?php
 //1 – Definimos Para quem vai ser enviado o email
-$para = "comercial@clickjunior.com.br";
+$para = "souzalucas6@hotmail.com";
 //2 - resgatar o nome digitado no formulário e  grava na variavel $nome
 $nome = $_POST['name'];
 $last_name = $_POST['last_name'];
