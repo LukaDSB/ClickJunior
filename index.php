@@ -82,7 +82,7 @@
         </div>
     </div>
 
-    <section id="services">
+    <section id="services"> 
         <div class="container">
             <div class="section">
                 <div class="title center">
